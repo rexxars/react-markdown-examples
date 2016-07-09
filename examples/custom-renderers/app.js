@@ -80,7 +80,10 @@ const CodeExample = () => (
 const LinkExample = () => (
     <Markdown
         source={sampleLinks}
-        renderers={{Link: linkRenderer}}
+        renderers={{
+            Link: linkRenderer,
+            CodeBlock: codeRenderer
+        }}
     />
 );
 

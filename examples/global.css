@@ -52,6 +52,10 @@ code {
     padding: 0 5px;
 }
 
+pre code {
+    display: block;
+}
+
 .image-wrapper {
     position: relative;
     display: inline-block;
