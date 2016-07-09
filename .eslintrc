@@ -1,0 +1,4 @@
+{
+    "extends": "vaffel/react",
+    "parser": "babel-eslint"
+}
